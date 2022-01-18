@@ -1,0 +1,179 @@
+* {
+margin:0;
+padding:0;
+outline:none
+}
+
+.container {
+	margin: 20px 40px 0px 40px;
+	padding: 30px 0px 60px 0px;
+	font-family: "Rubik", sans-serif;
+	text-decoration: none;
+}
+
+.header {
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 80px 35px 80px;
+	font-family: "Rubik", sans-serif;
+}
+
+.header.shadow {
+	-webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+	-moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+	box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+
+.subheader {
+	display: flex;
+	grid-gap: 20px;
+	align-items: center;
+}
+
+.header button {
+	background-color: white;
+	border: 2px solid rgb(220,220,220);
+	text-align: center;
+	padding: 15px 20px;
+	transition: background-color 0.6s;
+	align-self: center;
+	font-family: "Rubik", sans-serif;
+}
+
+.header button:hover {
+	background-color: rgb(220,220,220);
+	cursor: pointer;
+}
+
+.search_bar {
+	width: 91%;
+	padding: 0;
+  	margin: 10px 0px 0px 50px;
+  	box-sizing: border-box;
+}
+
+.search_bar input {
+	border: none;
+	padding: 0;
+	font-size: 18px;
+	font-family: "Rubik", sans-serif;
+}
+
+
+.flex_title {
+	margin: 70px 50px 15px 50px;
+	padding: 10px 0px;
+}
+
+.restaurants {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.restaurant {
+	padding: 40px;
+	transition: 0.3s;
+}
+
+.restaurant:hover {
+	background-color: rgb(245,245,245);
+	cursor: pointer;
+}
+
+.restaurant a {
+	text-decoration: none;
+	color: black;
+}
+
+.restaurant img {
+	width: 320px;
+	height: 320px;
+	object-fit: cover;
+	transition: 0.5s;
+}
+
+.restaurant img:hover {
+	border-radius: 40%;
+}
+
+.restaurants_name {
+	margin: 10px 0px;
+	text-decoration: none;
+	color: black;
+}
+
+.restaurants_price {
+	color: rgb(150,150,150);
+	font-size: 14px;
+	margin: 10px 0; 
+	text-decoration: none;
+}
+
+.restaurants_time {
+	font-size: 14px;
+	margin: 10px 0;
+	text-decoration: none;
+	color: black;
+}
+
+.footer {
+	background: rgb(64,64,64);
+	background-size: cover;
+	margin: 0;
+	outline:none;
+	font-family: "Rubik", sans-serif;
+}
+
+.white-logo {
+	padding: 40px 90px;
+
+}
+
+.green {
+	font-size: 20px;
+	color: rgb(220,220,220);
+}
+
+.info {
+	display: flex;
+	justify-content: space-around;
+}
+
+.column {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	grid-gap: 20px;
+}
+
+.column a {
+	text-decoration: none;
+	color: rgb(220,220,220);
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	grid-gap: 40px;
+	padding: 40px;
+}
+
+.very_bottom {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+	color: rgb(220,220,220);
+}
+
+.languages select {
+	background-color: rgb(104,104,104);
+	color: rgb(220,220,220);
+	padding: 10px 40px 10px 5px;
+	font-family: "Rubik", sans-serif;
+	border: none;
+}
